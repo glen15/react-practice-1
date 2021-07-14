@@ -1,0 +1,21 @@
+.nav {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.nav__ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav__link {
+    width: 80px;
+    margin: 20px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(70, 73, 104);
+    border-radius: 5px;
+    text-align: center;
+}
