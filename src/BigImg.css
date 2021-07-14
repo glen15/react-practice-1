@@ -1,0 +1,11 @@
+.gallery__big {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gallery__bigImg {
+    height: 500px;
+    width: 500px;
+    background-image: cover;
+}

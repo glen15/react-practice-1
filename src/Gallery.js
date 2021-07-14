@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import BigImg from './BigImg';
 import './Gallery.css';
 
 const Gallery = () => {
@@ -33,9 +34,7 @@ const Gallery = () => {
                     }
                 )}
             </section>
-            <section className="gallery__big">
-                <img className="gallery__bigImg" src={big}/>
-            </section>
+            <BigImg big={big} />
         </div>
     )
 }
